@@ -92,6 +92,7 @@ body {
   margin-top: 10px;
   font-size: 30px;
   background: linear-gradient(90deg, #60a5fa, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -221,6 +222,7 @@ hr {
 .content h1 span,
 .content p span.jfs {
   background: linear-gradient(90deg, #60a5fa, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -303,10 +305,10 @@ section.about div.content .info-box .box:hover {
   margin-bottom: 70px;
 }
 
-.section-title::after {
-}
+
 .section-title span {
   background: linear-gradient(90deg, #4f8cff, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -559,6 +561,7 @@ section.about div.content .info-box .box:hover {
   font-size: 30px;
   margin-bottom: 10px;
   background: linear-gradient(90deg, #4f8cff, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -674,6 +677,7 @@ section.about div.content .info-box .box:hover {
 
 .contact-info p i:hover {
   background: linear-gradient(90deg, #4f8cff, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -801,6 +805,7 @@ section.about div.content .info-box .box:hover {
 
 .footer-left h2 span {
   background: linear-gradient(90deg, #4f8cff, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -836,6 +841,7 @@ section.about div.content .info-box .box:hover {
   color: #fff;
   text-shadow: 0 0 8px rgba(79, 140, 255, 0.6);
   background: linear-gradient(90deg, #4f8cff, #a855f7);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: translateX(6px);
